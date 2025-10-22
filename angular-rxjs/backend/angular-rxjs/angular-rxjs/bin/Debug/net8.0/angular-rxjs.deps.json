@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "angular-rxjs/1.0.0": {
+        "runtime": {
+          "angular-rxjs.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "angular-rxjs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

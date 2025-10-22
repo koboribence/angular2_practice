@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("angular-rxjs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd426284519925ccea206e971f8bcf9a49ffcc6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2c63566351020806fc070688d11d30f4dcb23a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("angular-rxjs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("angular-rxjs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
