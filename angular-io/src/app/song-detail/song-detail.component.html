@@ -1,8 +1,10 @@
-<div *ngIf="song; else noSong">
-    <p>Artist: {{song.artist}}</p>
-    <p>Album: {{song.album}}</p>
-    <p>Title: {{song.title}}</p>
-    <p>Year: {{song.year}}</p>
+<div class="bg-secondary text-white px-2 py-2 rounded-2 border" *ngIf="song; else noSong">
+    <ul class="song-list px-4 py-2">
+        <li class="song-item h4">Artist: {{song.artist}}</li>
+        <li class="song-item h4">Title: {{song.title}}</li>
+        <li class="song-item h5">Album: {{song.album}}</li>
+        <li class="song-item h5">Year: {{song.year}}</li>
+    </ul>
 </div>
 <ng-template #noSong>
     <p>Nincs kiválasztott dal.</p>

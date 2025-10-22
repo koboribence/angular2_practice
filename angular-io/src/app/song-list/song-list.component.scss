@@ -1,0 +1,11 @@
+.song-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.song-item:hover {
+     transition: background-color 0.3s ease;
+    background-color: rgb(68, 149, 255) !important; 
+    cursor:pointer;
+}
