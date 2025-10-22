@@ -1,1 +1,9 @@
-<p>song-detail works!</p>
+<div *ngIf="song; else noSong">
+    <p>Artist: {{song.artist}}</p>
+    <p>Album: {{song.album}}</p>
+    <p>Title: {{song.title}}</p>
+    <p>Year: {{song.year}}</p>
+</div>
+<ng-template #noSong>
+    <p>Nincs kiválasztott dal.</p>
+</ng-template>

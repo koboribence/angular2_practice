@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Song } from '../song.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-song-detail',
@@ -7,5 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './song-detail.component.scss'
 })
 export class SongDetailComponent {
+  @Input() song: Song | null = null;
+
+
 
 }
