@@ -1,3 +1,14 @@
 <h2>More filters</h2>
+
+<hr>
+
 <h3>Average Length:</h3>
 <span>{{averageLength$ | async}}</span>
+<h3>Titles</h3>
+<ul>
+  <li *ngFor="let title of titles$ | async">{{ title }}</li>
+</ul>
+<h3>Random song</h3>
+<span *ngIf="randomSong$ | async as song">{{song.title}}</span>
+<h3>First song</h3>
+<span *ngIf="firstSong$ | async as song" >{{song.title}}</span>

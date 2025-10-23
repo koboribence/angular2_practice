@@ -14,22 +14,54 @@ import { Song } from '../song';
 //  A megfelelő hookot használva vegye át a szolgáltatásból az elemeket (getRaw).
 //  Készítse el a következő metódusokat, amelyek a már átvett zeneszámokat további feltételek mentén szűri / leválogatja RxJS operátorok felhasználásával.
 
+// !!!!!!!!!!!!!!
+// A feladatban azt írja, hogy a metódusokat ki kell kötni a html-be, de valamiért így nem akarta megjeleníteni az adatokat, így külön változóbol viszem ki html-be, később lehet javítom!
+// !!!!!!!!!!!!!!
+
 export class MoreFiltersComponent implements OnInit {
+
   songs$!: Observable<Song[]>
   averageLength$!: Observable<number>
+  titles$!: Observable<string[]>
+  randomSong$!: Observable<Song>
+  firstSong$!: Observable<Song>
+
   constructor(private dataService: DataService) {
   }
   ngOnInit(): void {
     this.songs$ = this.dataService.getRaw()
     this.getAverageLength()
+    this.getTitles()
+    this.getRandomSong()
+    this.getFirstSong()
   }
   getAverageLength(): void {
-    // A komponens html részébe kösse ki a metódusokat, javasolt async pipe-ot használni => nem működik valamiért, így inkább külön változóból teszem ki, később lehet javítom
-    this.averageLength$ =  this.songs$.pipe(
+    this.averageLength$ = this.songs$.pipe(
       map(songs => {
-        const total = songs.reduce((acc, song) => acc + song.length, 0);
-        return total / songs.length;
+        const total = songs.reduce((acc, song) => acc + song.length, 0)
+        return total / songs.length
       })
     );
+  }
+  getTitles(): void {
+    this.titles$ = this.songs$.pipe(
+      map(songs => songs.map(song => song.title)
+      )
+    )
+  }
+  getRandomSong(): void {
+     this.randomSong$ = this.songs$.pipe(
+      map(songs => {
+        const index = Math.floor(Math.random() * songs.length)
+        return songs[index]
+      })
+    );
+  }
+  getFirstSong(): void{
+    this.firstSong$ = this.songs$.pipe(
+      map(songs =>{
+        return songs[0]
+      })
+    )
   }
 }
