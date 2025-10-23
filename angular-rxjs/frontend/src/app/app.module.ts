@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { RawComponent } from './raw/raw.component';
 import { FilteredComponent } from './filtered/filtered.component';
 import { MoreFiltersComponent } from './more-filters/more-filters.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     RawComponent,
     FilteredComponent,
-    MoreFiltersComponent
+    MoreFiltersComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

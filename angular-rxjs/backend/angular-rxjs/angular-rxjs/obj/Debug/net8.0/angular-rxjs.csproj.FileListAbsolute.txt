@@ -21,7 +21,6 @@ D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\staticweb
 D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\staticwebassets.development.json
 D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\angular-rxjs.dll
 D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\refint\angular-rxjs.dll
 D:\app\angular-rxjs\backend\angular-rxjs\angular-rxjs\obj\Debug\net8.0\angular-rxjs.pdb

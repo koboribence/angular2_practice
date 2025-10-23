@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { DataService } from './data.service';
+import { Observable } from 'rxjs';
+import { Song } from './song';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +9,13 @@ import { Component } from '@angular/core';
   standalone: false,
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
-  title = 'frontend';
+export class AppComponent implements OnInit {
+  title = 'frontend'
+   songs$!: Observable<Song[]>;
+  constructor(private ds: DataService) {
+  }
+  ngOnInit(): void {
+     this.songs$ = this.ds.getRaw();
+     console.log(this.songs$)
+  }
 }

@@ -1,1 +1,5 @@
-<p>raw works!</p>
+<ul>
+    <li *ngFor="let s of songs$ | async">
+        {{s.artist}}
+    </li>
+</ul>
