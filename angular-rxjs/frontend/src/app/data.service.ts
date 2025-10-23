@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { map, Observable, of } from 'rxjs';
 import { Song } from './song';
 import { HttpClient } from '@angular/common/http';
 
@@ -13,6 +13,11 @@ export class DataService {
 
   getRaw(): Observable<Song[]>{ 
     return this.http.get<Song[]>(this.apiUrl)
+  }
+  getFiltered(): Observable<Song[]>{
+    return this.http.get<Song[]>(this.apiUrl).pipe(
+      map(songs => songs.filter(s => s.likes > 10))
+    )
   }
 
 }

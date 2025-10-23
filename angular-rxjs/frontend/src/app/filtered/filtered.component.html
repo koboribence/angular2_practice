@@ -1,1 +1,6 @@
-<p>filtered works!</p>
+<h2>Filtered</h2>
+<ul>
+    <li *ngFor="let s of songs">
+        {{s.artist}} - {{s.title}} - {{s.likes}}
+    </li>
+</ul>

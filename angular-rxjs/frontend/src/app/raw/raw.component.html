@@ -1,5 +1,6 @@
+<h2>Raw </h2>
 <ul>
     <li *ngFor="let s of songs$ | async">
-        {{s.artist}}
+        {{s.artist}} - {{s.title}}
     </li>
 </ul>
