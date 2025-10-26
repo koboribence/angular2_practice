@@ -1,0 +1,8 @@
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.csproj.AssemblyReference.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.AssemblyInfoInputs.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.AssemblyInfo.cs
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.csproj.CoreCompileInputs.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.MvcApplicationPartsAssemblyInfo.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\angular-complex.Logic.sourcelink.json

@@ -1,0 +1,5 @@
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\staticwebassets.build.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\staticwebassets.build.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\staticwebassets.build.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\staticwebassets.build.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Logic\obj\Debug\net8.0\staticwebassets.build.json

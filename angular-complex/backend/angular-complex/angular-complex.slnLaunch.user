@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "angular-complex\\angular-complex.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

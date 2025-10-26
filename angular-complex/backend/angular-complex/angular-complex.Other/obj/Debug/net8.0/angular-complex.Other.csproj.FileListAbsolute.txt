@@ -1,0 +1,15 @@
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\bin\Debug\net8.0\angular-complex.Other.deps.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\bin\Debug\net8.0\angular-complex.Other.runtimeconfig.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\bin\Debug\net8.0\angular-complex.Other.dll
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\bin\Debug\net8.0\angular-complex.Other.pdb
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.csproj.AssemblyReference.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.GeneratedMSBuildEditorConfig.editorconfig
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.AssemblyInfoInputs.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.AssemblyInfo.cs
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.csproj.CoreCompileInputs.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.sourcelink.json
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.dll
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\refint\angular-complex.Other.dll
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.pdb
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\angular-complex.Other.genruntimeconfig.cache
+D:\app\angular-complex\backend\angular-complex\angular-complex.Other\obj\Debug\net8.0\ref\angular-complex.Other.dll
